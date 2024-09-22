@@ -2,7 +2,7 @@ from openai import OpenAI
 import streamlit as st
  
 
-st.title("💬 Chatgpt-4.0")
+st.title("💬 Chatgpt-3.5")
 st.caption("🤖 A Streamlit chatbot powered by OpenAI")
 if "messages" not in st.session_state:
     st.session_state["messages"] = [{"role": "assistant", "content": "How can I help you?"}]

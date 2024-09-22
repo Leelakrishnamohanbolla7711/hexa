@@ -12,7 +12,7 @@ for msg in st.session_state.messages:
  
 if prompt := st.chat_input():
     
-    client = OpenAI(api_key="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")
+    client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
     st.session_state.messages.append({"role": "user", "content": prompt})
     st.chat_message("user").write(prompt)

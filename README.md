@@ -13,8 +13,8 @@
 - [Updating the configuration file](#9-updating-the-configuration-file)
 ### 1. Quickstart
 
-* Check out the [demo app](https://demo-app-v0-3-3.streamlit.app/).
-* Please refer to the [API reference](https://streamlit-authenticator.readthedocs.io/en/latest/).
+* Check out the [demo app](https://skillnavigator-genai-app.streamlit.app/).
+
 
 ### 2. Installation
 

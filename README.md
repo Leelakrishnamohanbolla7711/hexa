@@ -22,6 +22,7 @@ Streamlit-Authenticator is distributed via [PyPI](https://pypi.org/project/strea
 
 ```python
 pip install streamlit
+pip install openai
 ```
 
 Using Streamlit-Authenticator is as simple as importing the module and calling it to verify your user's credentials.
